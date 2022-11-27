@@ -1,24 +1,21 @@
-import logo from "../assets/avatar.png";
-// import logo1 from "../assets/W.jpg";
-
 
 const Hero = () => {
   return (
-    <div className="bg-blue-400 w-5/6 my-20 flex relative rounded-2xl p-10">
-      <div className="text-white rounded-2xl">
+    <div className="bg-yellow-400 sm:bg-green-400 md:bg-blue-400 w-full sm:w-5/6 my-20 sm:flex sm:justify-between sm:space-x-40 sm:rounded-2xl px-5 py-10 sm:p-10">
+      <div className="text-white rounded-2xl text-center">
         <h1 className="text-3xl mb-2">LOTTERY JACKPOT</h1>
         <p>
-          PLAY FOR JUST <span className="text-yellow-500">$1.00</span>!{" "}
+          PLAY FOR JUST <span className=" bg-red-400 p-1">$1.00!</span>
         </p>
-        <p className="text-white bg-yellow-500 mt-8 w-40 p-2 text-3xl font-bold">
+        <p className="text-white bg-yellow-500 mt-8 w-40 p-2 text-3xl font-bold hidden">
           $100,000
         </p>
       </div>
 
-      <div className="ml-20 bg-[#93cbfd8c] p-10 rounded-3xl text-white text-center space-y-3 object-contain">
+      <div className=" bg-opacity-75 bg-yellow-500 p-5 rounded-3xl text-white auto text-center space-y-3 mt-5">
         <h1 className="text-sm">New Draw in</h1>
         <h1 className="text-3xl font-semibold">22hr:34m:56s</h1>
-        <button className="bg-[#a9d3f88c] px-8 p-2 rounded-xl">
+        <button className="bg-yellow-600 bg-opacity-25 px-8 p-2 rounded-xl">
           Buy a Ticket
         </button>
         <p className="text-sm font-medium">
@@ -26,10 +23,6 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="absolute -right-4 -top-20">
-        <img src={logo} alt="" />
-      </div>
-      {/* <img src={logo1} alt="" /> */}
     </div>
   );
 };
