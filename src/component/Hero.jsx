@@ -5,7 +5,7 @@ const Hero = () => {
       <div className="text-white rounded-2xl text-center">
         <h1 className="text-3xl mb-2">LOTTERY JACKPOT</h1>
         <p>
-          PLAY FOR JUST <span className=" bg-red-400 p-1">$1.00!</span>
+          PLAY FOR JUST <span className=" bg-red-400 p-1">$1.0!</span>
         </p>
         <p className="text-white bg-yellow-500 mt-8 w-40 p-2 text-3xl font-bold hidden">
           $100,000
