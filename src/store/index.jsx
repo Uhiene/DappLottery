@@ -4,7 +4,7 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
   users: [
     {
       id: 1,
-      wallet: "0xd7v8d97v8d97v8d97v8d9f7v8d9",
+      wallet: "0xd7v8d97v8d97v8d97v8df7v8d9",
       ticketNum:"x1",
       time:"3:29pm",
       matches:"1",
@@ -12,7 +12,7 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
     },
     {
       id: 2,
-      wallet: "0xd7v8d97v8d97v8d97v8d995ujp9",
+      wallet: "0xd7v8d97v8d97v8d97v8d95ujp9",
       ticketNum:"x2",
       time:"2:25pm",
       matches:"3",
@@ -20,7 +20,7 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
     },
     {
       id: 3,
-      wallet: "0xd7v8d97v8d97v8d97v8d9f7ek9f",
+      wallet: "0xd7v8d97v8d97v8d97v8df7ek9f",
       ticketNum:"x1",
       time:"1:05am",
       matches:"2",
@@ -29,7 +29,7 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
     },
     {
       id: 4,
-      wallet: "0xd7v8d97v8d97v8d97v8d9f7ef9f",
+      wallet: "0xd7v8d97v8d97v8d97v8df7ef9f",
       ticketNum:"x2",
       time:"12:0am",
       matches:"4",
@@ -37,7 +37,7 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
     },
     {
       id: 5,
-      wallet: "0xd7v8d97v8d97v8d97v8d9f7ef9f",
+      wallet: "0xd7v8d97v8d97v8d97v8df7ef9f",
       ticketNum:"x1",
       time:"6:0pm",
       matches:"5",
